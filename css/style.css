@@ -72,17 +72,18 @@ td, tbody th{
   padding: 10px 10px 10px 10px;
 }
 
-thead tr{
+thead tr th{
   background: #7e0825;
-
+  min-width: 125px;
+  padding: 10px;
+  text-align: center;
+  vertical-align: middle;
+  text-transform: uppercase;
 }
 
 .colhead{
   color: #FFFFFF;
-  min-width: 125px;
-  padding: 10px;
-  text-align: center;
-  text-transform: uppercase;
+
 }
 
 .rowhead{
